@@ -209,7 +209,8 @@
 #define CONFIG_SENSOR_480P_FPS_FIXED_12      15000
 #define CONFIG_SENSOR_SVGA_FPS_FIXED_12      15000
 #define CONFIG_SENSOR_720P_FPS_FIXED_12      30000
-
+// KEMOBA EDIT
+#define PMIC_TYPE_WM8326	1
 
 #endif  //#ifdef CONFIG_VIDEO_RK29
 /*---------------- Camera Sensor Configuration Macro End------------------------*/

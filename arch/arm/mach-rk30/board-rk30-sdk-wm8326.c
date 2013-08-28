@@ -183,7 +183,8 @@ int wm831x_post_init(struct wm831x *Wm831x)
 	struct regulator *ldo;
 
 	
-	g_pmic_type = PMIC_TYPE_WM8326;
+	int g_pmic_type = PMIC_TYPE_WM8326;
+	
 	printk("%s:g_pmic_type=%d\n",__func__,g_pmic_type);
 	
 	ldo = regulator_get(NULL, "ldo6");	//vcc_33
